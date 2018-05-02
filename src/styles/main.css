@@ -1,0 +1,149 @@
+
+.navbar {
+  margin: 0;
+}
+
+.navbar h1 {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #0067a3;
+}
+
+.board-name h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 10px 0 0 20px;
+  color: #FFFFFF;
+}
+
+.lists-wrapper {
+  padding: 20px;
+}
+
+.list-wrapper {
+  display: inline-block;
+  width: 300px;
+  background-color: #D7D7D7;
+  border-radius: 5px;
+  margin: 0 30px 30px 0;
+  vertical-align: top;
+  position: relative;
+}
+
+.list {
+  padding: 10px 15px 15px;
+}
+
+.list h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.list-wrapper .add-item a {
+  display: block;
+  padding: 10px 15px;
+  color: #838c91;
+  border-radius: 0 0 5px 5px;
+}
+
+.list-wrapper .add-item a:hover {
+  background-color: #c4c9cc;
+}
+
+.list-item-wrapper {
+  margin-top: 15px;
+}
+
+.list-item {
+  position: relative;
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: #c4c9cc;
+}
+
+.list-item article {
+  line-height: 22px;
+}
+
+.action-icons {
+  position: absolute;
+  padding: 5px 10px;
+  float: right;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.action-icons a {
+  display: inline-block;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.action-icons a:hover {
+  background-color: #a9a7a7;
+}
+
+.edit-field {
+  padding: 5px 15px 30px;
+}
+
+.edit-field textarea {
+  width: 98%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.list-item-wrapper .edit-field {
+  padding: 0;
+}
+
+.btn-primary {
+  background-color: #5aac44;
+  box-shadow: 0 1px 0 #519839;
+  color: #fff;
+  padding: 4px 16px;
+  line-height: 24px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 3px;
+  margin: 5px 5px 5px 0;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #9b9b9b;
+  box-shadow: 0 1px 0 #9b9b9b;
+  color: #fff;
+  padding: 4px 16px;
+  line-height: 24px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 3px;
+  margin: 5px 5px 5px 0;
+  cursor: pointer;
+}
+
+.drop-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  background-color: #000000;
+  border-radius: 5px;
+}
